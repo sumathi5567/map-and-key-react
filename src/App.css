@@ -1,0 +1,23 @@
+
+
+.container{
+  width:400px;
+  height: 500px;
+  box-shadow: 0 0 10px gray;
+  position: relative;
+  display:inline-block;
+  margin: 20px 50px;
+  transition: all 0.2s linear;
+}
+.container:hover{
+  transform:scale(1.1);
+}
+.content{
+  position:absolute;
+  padding:10px;
+}
+
+.content img{
+  width:380px;
+  height:300px;
+}
